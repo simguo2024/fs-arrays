@@ -209,7 +209,7 @@ console.log(sum);
 const inputArray = [1, -2, 3, 5, -8, -13, 21];
 const indexes = [];
 
-for (i = 0 ; i < inputArray.length; i++) {
+for (let i = 0 ; i < inputArray.length; i++) {
     if(inputArray[i] > 0) {
         indexes.push(i);
     }
