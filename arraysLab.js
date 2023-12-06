@@ -206,3 +206,12 @@ console.log(sum);
 // For example:
 // [1, -2, 3, 5, -8, -13, 21] -> [0, 2, 3, 6]
 
+const inputArray = [1, -2, 3, 5, -8, -13, 21];
+const indexes = [];
+
+for (i = 0 ; i < inputArray.length; i++) {
+    if(inputArray[i] > 0) {
+        indexes.push(i);
+    }
+}
+console.log(indexes);
