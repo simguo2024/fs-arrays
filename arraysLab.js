@@ -1,7 +1,6 @@
 const sampleArray = [2, 4, 6, 8, 10, 12, 1, 3, 5, 7];
 
 //////////////////PROBLEM 1////////////////////
-ddd
 // Make a variable called firstItem and set it equal to the first item in
 // "sampleArray". Then, log it to the console.
 // The expected output is 2.
